@@ -34,7 +34,7 @@ Lyria AI is a premium, desktop-first web application designed for studio-quality
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/PrakharDoneria/LyriaApp.git
-   cd LyriaAPI
+   cd LyriaApp
    ```
 
 2. **Install dependencies**:

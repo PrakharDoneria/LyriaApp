@@ -5,7 +5,7 @@ import Script from 'next/script';
 import { useEffect, useRef } from 'react';
 
 export default function Sponsor() {
-  const razorpayContainerRef = useRef<HTMLDivElement>(null);
+  const razorpayContainerRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     // Razorpay button logic
