@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { QuotaProvider } from "@/components/QuotaContext";
 
 export const metadata: Metadata = {
   title: "Lyria | AI Music Generation",
   description: "Generate high-quality AI music from text prompts, lyrics, or images with Lyria.",
 };
-
-import { QuotaProvider } from "@/components/QuotaContext";
 
 export default function RootLayout({
   children,
@@ -22,6 +21,11 @@ export default function RootLayout({
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎵</text></svg>" />
       </head>
       <body>
+        <div className="bg-blobs">
+          <div className="blob blob-1"></div>
+          <div className="blob blob-2"></div>
+          <div className="blob blob-3"></div>
+        </div>
         <QuotaProvider>
           {children}
         </QuotaProvider>

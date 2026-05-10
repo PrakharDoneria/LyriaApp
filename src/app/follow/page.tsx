@@ -5,12 +5,6 @@ import Link from 'next/link';
 export default function Follow() {
   return (
     <div id="app" className="app-container">
-      <div className="bg-blobs">
-        <div className="blob blob-1"></div>
-        <div className="blob blob-2"></div>
-        <div className="blob blob-3"></div>
-      </div>
-
       <section className="screen active" style={{ justifyContent: 'center', alignItems: 'center' }}>
         <div className="onboarding-card glass">
           <div className="profile-circle">

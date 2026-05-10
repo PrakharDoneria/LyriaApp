@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Script from 'next/script';
 import { useEffect, useRef } from 'react';
 
 export default function Sponsor() {
@@ -20,12 +19,6 @@ export default function Sponsor() {
 
   return (
     <div id="app" className="app-container">
-      <div className="bg-blobs">
-        <div className="blob blob-1"></div>
-        <div className="blob blob-2"></div>
-        <div className="blob blob-3"></div>
-      </div>
-
       <section className="screen active" style={{ justifyContent: 'center', alignItems: 'center' }}>
         <div className="onboarding-card glass">
           <h2>Support Our<br />Vision</h2>
